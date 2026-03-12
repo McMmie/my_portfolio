@@ -39,7 +39,11 @@ import {
   
   const services = [
     {
-      title: "Cyber Security Analyst",
+      title: "Junior pentester",
+      icon: web,
+    },
+        {
+      title: "JavaScript Developer",
       icon: web,
     },
     {
@@ -113,6 +117,20 @@ import {
   
   const experiences = [
     {
+      title: "Full-Stack software engineer Intern",
+      company_name: "AsiliHub",
+      icon: zuyu,
+      iconBg: "#383E56",
+      date: "March 2025 - May 2025",
+      points: [
+        "Collaborated with other developers to build and maintain code for different projects",
+        "Refactored the backend codebase to ensure that there is less code and more functionality which enhanced performance by 30%",
+        "Added features that enhanced User Experience by up to 20%",
+        "Worked with the graphics team and frontend development team to create a user interface that was user friendly and engaging",
+        "Enhanced security by 20% through testing APIs against different cyber threats"
+      ],
+    },
+    {
       title: "Front-end Intern",
       company_name: "Zuyu",
       icon: zuyu,
@@ -125,6 +143,8 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
+
   ];
   
   const testimonials = [
